@@ -6,9 +6,13 @@ myApp.config(['$routeProvider', function($routeProvider){
           controller:    'linksController'
      })
      .when('/album/:id', {
-          templateUrl:   '../album.html',
+          templateUrl:   '../album2.html',
           controller:    'albumController'
      })
+     // .when('/album/:id', {
+     //      templateUrl:   '../fb.html',
+     //      controller:    'albumController'
+     // })
      .otherwise({
           redirectTo: '/'
      });
@@ -80,7 +84,7 @@ myApp.factory('flickrApi', function($http){
                          server: data.photoset.photo[i].server,
                          secret: data.photoset.photo[i].secret,
                          thumbnail : imageSrc("s", data.photoset.photo[i].id, data.photoset.photo[i].server, data.photoset.photo[i].farm, data.photoset.photo[i].secret),
-                         photo_src : imageSrc("c", data.photoset.photo[i].id, data.photoset.photo[i].server, data.photoset.photo[i].farm, data.photoset.photo[i].secret)
+                         photo_src : imageSrc("z", data.photoset.photo[i].id, data.photoset.photo[i].server, data.photoset.photo[i].farm, data.photoset.photo[i].secret)
                     });
                     console.log(list[i]);
                }

@@ -4,3 +4,9 @@
 .thumbnail {
      float: left;
 }
+.center {
+     text-align: center;
+}
+.portfolio_photo {
+     width:  100%;
+}

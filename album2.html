@@ -1,0 +1,34 @@
+<h1>One Flickr Album</h1>
+<!-- <ul style="list-style-type: none;">
+<li ng-repeat="photo in jsonPhotos">
+<div><img src="{{photo.thumbnail}}"></div>
+</li>
+</ul>
+<br>
+<ul>
+<li ng-repeat="photo in jsonPhotos">
+<div><img src="{{photo.photo_src}}"></div>
+</li>
+</ul> -->
+
+
+
+<div class="row">
+
+     <div class="col-xs-3">
+          &nbsp;
+     </div>
+
+     <div class="col-xs-6">
+          <li style="list-style-type: none;" ng-repeat="photo in jsonPhotos">
+               <p class="center"><img class="portfolio_photo" src="{{photo.photo_src}}"></p>
+               <p class="center">{{photo.title}}</p>
+          </li>
+     </div>
+
+     <div class="col-xs-3">
+          &nbsp;
+     </div>
+
+
+</div>
