@@ -1,0 +1,12 @@
+<h1>One Flickr Album</h1>
+<ul style="list-style-type: none;">
+     <li ng-repeat="photo in jsonPhotos">
+          <div><img style="float: left; padding: 1em;" src="{{photo.thumbnail}}"></div>
+     </li>
+</ul>
+<br>
+<ul>
+     <li ng-repeat="photo in jsonPhotos">
+          <div><img src="{{photo.photo_src}}"></div>
+     </li>
+</ul>
