@@ -43,90 +43,90 @@ table {
 
 
 
-@font-face {
+/*@font-face {
     font-family: 'ColaborateThinRegular';
-    src: url('ColabThi-webfont.eot');
-    src: url('ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ColabThi-webfont.woff') format('woff'),
-         url('ColabThi-webfont.ttf') format('truetype'),
-         url('ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
+    src: url('../css/ColabThi-webfont.eot');
+    src: url('../css/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+url('_css/ColabThi-webfont.woff') format('woff'),
+url('_css/ColabThi-webfont.ttf') format('truetype'),
+url('_css/ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
-}
-
+}*/
+/*
 @font-face {
     font-family: 'ColaborateLightRegular';
-    src: url('ColabLig-webfont.eot');
-    src: url('ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ColabLig-webfont.woff') format('woff'),
-         url('ColabLig-webfont.ttf') format('truetype'),
-         url('ColabLig-webfont.svg#ColaborateLightRegular') format('svg');
+    src: url('_css/ColabLig-webfont.eot');
+    src: url('_css/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+url('_css/ColabLig-webfont.woff') format('woff'),
+url('_css/ColabLig-webfont.ttf') format('truetype'),
+url('_css/ColabLig-webfont.svg#ColaborateLightRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
-@font-face {
+/*@font-face {
     font-family: 'ColaborateRegular';
-    src: url('ColabReg-webfont.eot');
-    src: url('ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ColabReg-webfont.woff') format('woff'),
-         url('ColabReg-webfont.ttf') format('truetype'),
-         url('ColabReg-webfont.svg#ColaborateRegular') format('svg');
+    src: url('_css/ColabReg-webfont.eot');
+    src: url('_css/ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+url('_css/ColabReg-webfont.woff') format('woff'),
+url('_css/ColabReg-webfont.ttf') format('truetype'),
+url('_css/ColabReg-webfont.svg#ColaborateRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
-@font-face {
+/*@font-face {
     font-family: 'ColaborateMediumRegular';
-    src: url('ColabMed-webfont.eot');
-    src: url('ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ColabMed-webfont.woff') format('woff'),
-         url('ColabMed-webfont.ttf') format('truetype'),
-         url('ColabMed-webfont.svg#ColaborateMediumRegular') format('svg');
+    src: url('_css/ColabMed-webfont.eot');
+    src: url('_css/ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
+url('_css/ColabMed-webfont.woff') format('woff'),
+url('_css/ColabMed-webfont.ttf') format('truetype'),
+url('_css/ColabMed-webfont.svg#ColaborateMediumRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
-@font-face {
+/*@font-face {
     font-family: 'ColaborateBoldRegular';
-    src: url('ColabBol-webfont.eot');
-    src: url('ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ColabBol-webfont.woff') format('woff'),
-         url('ColabBol-webfont.ttf') format('truetype'),
-         url('ColabBol-webfont.svg#ColaborateBoldRegular') format('svg');
+    src: url('_css/ColabBol-webfont.eot');
+    src: url('_css/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+url('_css/ColabBol-webfont.woff') format('woff'),
+url('_css/ColabBol-webfont.ttf') format('truetype'),
+url('_css/ColabBol-webfont.svg#ColaborateBoldRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
-@font-face {
+/*@font-face {
     font-family: 'Inconsolata';
-    src: url('Inconsolata-webfont.eot');
-    src: url('Inconsolata-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Inconsolata-webfont.woff') format('woff'),
-         url('Inconsolata-webfont.ttf') format('truetype'),
-         url('Inconsolata-webfont.svg#InconsolataMedium') format('svg');
+    src: url('../css/Inconsolata-webfont.eot');
+    src: url('../css/Inconsolata-webfont.eot?#iefix') format('embedded-opentype'),
+url('_css/Inconsolata-webfont.woff') format('woff'),
+url('_css/Inconsolata-webfont.ttf') format('truetype'),
+url('_css/Inconsolata-webfont.svg#InconsolataMedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
-h1, h2, h3 {
-	font-family: 'ColaborateRegular', Arial, sans-serif;	
+/*h1, h2, h3 {
+	font-family: 'ColaborateRegular', Arial, sans-serif;
 }
 
 
 strong {
-	font-family: 'ColaborateMediumRegular', Arial, sans-serif;	
+	font-family: 'ColaborateMediumRegular', Arial, sans-serif;
 }
 
 em {
-	font-family: 'ColaborateThinRegular', Arial, sans-serif;	
-}
+	font-family: 'ColaborateThinRegular', Arial, sans-serif;
+}*/
 
 .content {
 	max-width: 760px;
@@ -175,8 +175,8 @@ em {
 }
 
 
-.clear:after { 
-content: "."; display: block; height: 0; clear: both; visibility: hidden; 
+.clear:after {
+content: "."; display: block; height: 0; clear: both; visibility: hidden;
 }
 
 .clear {
@@ -223,15 +223,15 @@ p , li, legend , form{
 fieldset {
 	padding: 10px;
 	border: 1px solid white;
-	margin: 25px 0;	
+	margin: 25px 0;
 }
 
 .nav {
-	margin: 10px 0 0 100px;	
+	margin: 10px 0 0 100px;
 }
 
 .nav li {
-	display: inline-block;	
+	display: inline-block;
 }
 
 .nav a, .example {
@@ -436,11 +436,11 @@ background-color:#FFC;
 
 .col1 {
 	float: left;
-	width: 75%;	
+	width: 75%;
 }
 .col2 {
 	float: right;
-	width: 20%;	
+	width: 20%;
 }
 
 .col2 ul {
@@ -448,12 +448,12 @@ background-color:#FFC;
 	list-style: square;
 }
 .col2 li {
-	font-size: 90%;	
+	font-size: 90%;
 }
 
 
 #selectorList {
-	overflow: hidden;	
+	overflow: hidden;
 }
 #selector {
 	width: 275px;
@@ -472,7 +472,7 @@ background-color:#FFC;
 }
 
 form#order div, form#signup div{
-	padding-bottom: 10px;	
+	padding-bottom: 10px;
 }
 
 form#order .label, form#signup .label {
@@ -482,17 +482,17 @@ form#order .label, form#signup .label {
 	width: 175px;
 	text-align: right;
 	padding: 7px 15px 0 0;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	font-weight: bold;
 }
 
 form#signup .label {
-	width: 200px;	
+	width: 200px;
 }
 
 .labelBlock {
 	text-transform: uppercase;
-	font-weight: bold;	
+	font-weight: bold;
 	display: block;
 	padding-bottom: 0 !important;
 	clear: both;
@@ -501,16 +501,16 @@ form#signup .label {
 
 form#order select, form#signup select {
 	display: inline-block;
-	margin-top: 8px;	
+	margin-top: 8px;
 }
 
 form#order input[type="radio"], form#signup input[type="radio"], form#signup input[type="checkbox"] {
    display: inline-block;
-   margin-top: 10px;	
+   margin-top: 10px;
 }
 
 form .indent, #submit {
-	margin-left: 215px;	
+	margin-left: 215px;
 }
 #console label {
 	float: left;
