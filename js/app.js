@@ -9,10 +9,6 @@ myApp.config(['$routeProvider', function($routeProvider){
           templateUrl:   '../album2.html',
           controller:    'albumController'
      })
-     // .when('/album/:id', {
-     //      templateUrl:   '../fb.html',
-     //      controller:    'albumController'
-     // })
      .otherwise({
           redirectTo: '/'
      });
