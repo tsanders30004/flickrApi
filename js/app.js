@@ -41,6 +41,7 @@ myApp.factory('flickrApi', function($http){
                          numPhotos:     data.photosets.photoset[i].photos,
                          subtitle:      data.photosets.photoset[i].description._content
                     });
+                    console.log(push[i]);
                }
                callback(list);
           });

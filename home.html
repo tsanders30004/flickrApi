@@ -1,15 +1,41 @@
-<div class="container">
+<body>
+     <div class="container">
      <div class="row">
-          <div class="col-md-4 shoot_type">
-               weddings
+          <div class="col-sm-4 shoot_type">
+               <p class="port_type center">Weddings and Engagements</p>
+                    Inga<a href="#/album/72157668907606883"><img class="portfolio_photo" src="https://farm9.staticflickr.com/8159/28640797771_6774e84962_z.jpg"></a>
+                    Yeva<a href="#/album/72157670905259430"><img class="portfolio_photo" src="https://farm9.staticflickr.com/8594/28479849990_647e8ec25c_z.jpg"></a>
+                    Chris<a href="#/album/72157668977662454"><img class="portfolio_photo" src="https://farm9.staticflickr.com/8642/28658861852_cab55aeb57_z.jpg"></a>
+
+                    Object {id: "72157671136775472", title: "Budapest", numPhotos: "4", subtitle: ""}
+                    app.js:44 Object {id: "72157670905259430", title: "Yeva and John", numPhotos: "4", subtitle: ""}
+                    app.js:44 Object {id: "72157668977662474", title: "Battle of the Beards", numPhotos: "4", subtitle: ""}
+                    app.js:44 Object {id: "72157668977662464", title: "Berlin", numPhotos: "4", subtitle: ""}
+                    app.js:44 Object {id: "72157668977662454", title: "Chris and Fred", numPhotos: "4", subtitle: ""}
+                    app.js:44 Object {id: "72157668919420484", title: "Dragon Con", numPhotos: "10", subtitle: ""}
+                    app.js:44 Object {id: "72157668907606883", title: "Inga and Cliff", numPhotos: "7", subtitle: "Inga and Cliff - Engagement Photos"}
+                    app.js:44 Object {id: "72157671763550776", title: "Cigars", numPhotos: "14", subtitle: "Cigars and Cigar Events"}
+
+
           </div>
-          <div class="col-md-4 shoot_type">
-               <div id="links" ng-repeat="album in jsonAlbum">
-                    <a href="#/album/{{album.id}}">{{album.title}}</a>
-               </div>
+          <div class="col-sm-4 shoot_type">
+               <p class="port_type center">Events</p>
+                    DC<p><a href="#/album/72157668919420484"><img class="portfolio_photo" src="https://farm9.staticflickr.com/8862/28699702726_e91033e416_z.jpg"></a></p>
+                    Cigars<p><a href="#/album/72157671763550776"><img class="portfolio_photo" src="https://farm9.staticflickr.com/8350/28479850260_7555cedf5d_z.jpg"></a></p>
+                    Beards<p><a href="#/album/72157668977662474"><img class="portfolio_photo" src="https://farm9.staticflickr.com/8350/28479850260_7555cedf5d_z.jpg"></a></p>
           </div>
-          <div class="col-md-4 shoot_type">
-               places
+          <div class="col-sm-4 shoot_type">
+               <p class="port_type center">Places</p>
+               Berlin<p><a href="#/album/72157668977662464"><img class="portfolio_photo" src="https://farm9.staticflickr.com/8350/28479850260_7555cedf5d_z.jpg"></a></p>
+               Budapest<p><a href="#/album/72157671136775472"><img class="portfolio_photo" src="https://farm9.staticflickr.com/8350/28479850260_7555cedf5d_z.jpg"></a></p>
           </div>
      </div>
 </div>
+
+<hr>
+<br><br><br><br><br>
+
+<div id="links" ng-repeat="album in jsonAlbum">
+     <a href="#/album/{{album.id}}">{{album.title}}</a>
+</div>
+</body>

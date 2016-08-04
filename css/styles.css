@@ -1,6 +1,7 @@
 body {
      font-family: Verdana;
      padding: 2.5em;
+     box-sizing: border-box;
 }
 
 .ul_thumbnail {
@@ -14,6 +15,7 @@ body {
 }
 .portfolio_photo {
      width:  100%;
+     border: 0.75em solid gray;
 }
 .bg_color1 {
      background-color:   rgb(181, 156, 30);    /* mustard color index page 210 */
@@ -30,7 +32,6 @@ body {
 .bg_color4 {
      background-color:   rgb(41, 78, 107);    /* navy */
 }
-
 .logo {
      width: 100%;
      top: 50px;
@@ -48,5 +49,10 @@ body {
      padding-top: 2em;
 }
 .shoot_type {
-     border: 1px solid gray;
+     /*background-color: rgb(181, 156, 30);*/
+     /*border: .75em solid rgb(41, 78, 107);
+     margin: 1em;*/
+}
+.port_type {
+     font-size: 1.25em;
 }
