@@ -9,6 +9,14 @@ myApp.config(['$routeProvider', function($routeProvider){
           templateUrl:   '../album2.html',
           controller:    'albumController'
      })
+     .when('/faq', {
+          templateUrl:   '../faq.html'
+          // controller:    'albumController'
+     })
+     .when('/contact', {
+          templateUrl:   '../contact.html'
+          // controller:    'albumController'
+     })
      .otherwise({
           redirectTo: '/'
      });

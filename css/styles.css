@@ -1,3 +1,8 @@
+body {
+     font-family: Verdana;
+     padding: 2.5em;
+}
+
 .ul_thumbnail {
      display: inline;
 }
@@ -9,4 +14,39 @@
 }
 .portfolio_photo {
      width:  100%;
+}
+.bg_color1 {
+     background-color:   rgb(181, 156, 30);    /* mustard color index page 210 */
+}
+.bg_color2 {
+     background-color:   rgb(0, 166, 173);    /* teal */
+}
+.bg_color3 {
+     background-color:   rgb(140, 96, 45);    /* mocha */
+}
+.text_color3 {
+     color:              rgb(140, 96, 45);
+}
+.bg_color4 {
+     background-color:   rgb(41, 78, 107);    /* navy */
+}
+
+.logo {
+     width: 100%;
+     top: 50px;
+     left: 50px;
+}
+.page_title {
+     font-size: 2em;
+     text-align: center;
+     margin-top: 1.5em;
+     color: rgb(140, 96, 45);    /* mocha */
+}
+.logo_position {
+     /*border: 1px solid black;*/
+     padding-left: 4.1em;
+     padding-top: 2em;
+}
+.shoot_type {
+     border: 1px solid gray;
 }
