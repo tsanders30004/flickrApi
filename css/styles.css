@@ -2,6 +2,7 @@ body {
      font-family: Verdana;
      padding: 2.5em;
      box-sizing: border-box;
+     background-image: url(../artwork/wood-floor-texture.jpg);
 }
 
 .ul_thumbnail {
@@ -14,8 +15,14 @@ body {
      text-align: center;
 }
 .portfolio_photo {
+     width:  90%;
+     border: 1em solid beige;
+     transition: width 1s;
+     /*transition: border 0.2s;*/
+}
+.portfolio_photo:hover {
      width:  100%;
-     border: 0.75em solid gray;
+     border: 1em solid rgb(140, 96, 45);
 }
 .bg_color1 {
      background-color:   rgb(181, 156, 30);    /* mustard color index page 210 */
@@ -44,15 +51,24 @@ body {
      color: rgb(140, 96, 45);    /* mocha */
 }
 .logo_position {
-     /*border: 1px solid black;*/
      padding-left: 4.1em;
      padding-top: 2em;
 }
-.shoot_type {
-     /*background-color: rgb(181, 156, 30);*/
-     /*border: .75em solid rgb(41, 78, 107);
-     margin: 1em;*/
-}
 .port_type {
+     font-size: 1.5em;
+     color: BurlyWood;
+     padding-bottom:   1.5em;
+}
+.album_title {
      font-size: 1.25em;
+     padding-bottom: 1em;
+     color: bisque;
+}
+.nav_text {
+     font-family: "Ubuntu Mono", Verdana, sans-serif;color: rgb(181, 156, 30);
+     font-size: 1.5em;
+     font-weight: 500;
+}
+.nav_text:hover {
+     color: rgb(140, 96, 45);
 }
